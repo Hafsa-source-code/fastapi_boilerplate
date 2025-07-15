@@ -3,3 +3,4 @@ jsql
 fastapi
 uvicorn
 mysql-connector-python
+sqlalchemy
