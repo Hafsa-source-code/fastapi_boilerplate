@@ -1,6 +1,6 @@
 from web import engine
 from sqlalchemy import text
-from lib_pharma.models.persons import GetAllPersonsResponse, Person
+from lib_foo.models.persons import GetAllPersonsResponse, Person
 from libsql.sql import sql
 
 

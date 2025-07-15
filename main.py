@@ -1,10 +1,10 @@
 from fastapi import FastAPI
-from app_pharma.views.persons import router as persons_router
-from app_pharma.views.pharmacy import router as pharmacy_router
+from app_foo.views.persons import router as persons_router
+from app_foo.views.foo import router as foo_router
 
 app = FastAPI()
 app.include_router(persons_router, prefix="/persons", tags=["persons"])
-app.include_router(pharmacy_router, prefix="/pharmacy", tags=["pharmacy"])
+app.include_router(foo_router, prefix="/foo", tags=["foo"])
 
 
 @app.get("/")

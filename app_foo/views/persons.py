@@ -1,7 +1,6 @@
 from fastapi import APIRouter
-from jsql import sql
-from lib_pharma.models.persons import GetAllPersonsResponse, Person
-from lib_pharma import persons
+from lib_foo.models.persons import GetAllPersonsResponse, Person
+from lib_foo import persons
 
 router = APIRouter()
 
